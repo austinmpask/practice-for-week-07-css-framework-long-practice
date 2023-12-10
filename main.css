@@ -1,0 +1,21 @@
+body {
+  font-family: "Silkscreen", sans-serif;
+}
+
+p {
+  border: 1px solid black;
+  padding: 10px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.192);
+  transition: transform, box-shadow, background-color;
+  transition-duration: 50ms;
+  transition-timing-function: ease-in;
+  background-color: #f0f0f0;
+}
+
+p:hover {
+  transform: translateY(-2px) scale(1.01);
+  box-shadow: 7px 7px 7px rgba(0, 0, 0, 0.315);
+  background-color: #ffffff;
+}
+
+button
